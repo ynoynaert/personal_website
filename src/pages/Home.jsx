@@ -31,7 +31,7 @@ export default function Home() {
             <Heading>Youna Noynaert</Heading>
           </CardHeader>
           <CardBody>
-            I’m a student of web and mobile development and a passionate
+            I’m a software developer at Kleyo and a passionate
             photographer, specializing in sports photography for volleyball. I
             love combining creativity and technology to tell compelling stories
             and create beautiful visuals.

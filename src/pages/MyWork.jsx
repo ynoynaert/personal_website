@@ -56,7 +56,7 @@ export default function MyWork() {
                 </>
               )}
             </CardBody>
-            <CardFooter>
+            <CardFooter flexWrap="wrap" gap={2}>
               {w.buttonTwo ? (
                 <>
                   <Button
@@ -64,9 +64,12 @@ export default function MyWork() {
                     href={w.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    background="#F07167"
+                    background="#e0b187"
                     color="white"
-                    mr={2}
+                    width={{ base: "full", sm: "auto" }}
+                    whiteSpace="normal"
+                    height="auto"
+                    py={2}
                   >
                     {w.but}
                   </Button>
@@ -75,8 +78,12 @@ export default function MyWork() {
                     href={w.buttonTwo.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    background="#F07167"
+                    background="#e0b187"
                     color="white"
+                    width={{ base: "full", sm: "auto" }}
+                    whiteSpace="normal"
+                    height="auto"
+                    py={2}
                   >
                     {w.buttonTwo.text}
                   </Button>
@@ -87,8 +94,12 @@ export default function MyWork() {
                   href={w.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  background="#F07167"
+                  background="#e0b187"
                   color="white"
+                  width={{ base: "full", sm: "auto" }}
+                  whiteSpace="normal"
+                  height="auto"
+                  py={2}
                 >
                   {w.but}
                 </Button>
